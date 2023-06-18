@@ -1,15 +1,25 @@
+"use client";
 import founder1 from '../../../public/aboutPage/founderImg/Manish.webp'
 import founder2 from '../../../public/aboutPage/founderImg/Yash.webp'
 import founder3 from '../../../public/aboutPage/founderImg/Lokesh.webp'
 import Image from 'next/image';
 import { BsLinkedin } from 'react-icons/bs';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const Founders = () => {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
     return (
-        <div className='my-10 sm:w-[90%] lg:w-[80%] mx-auto'>
+        <div className='bg-blue-50'>
+            <div className='mt-10 sm:w-[90%] lg:w-[80%] mx-auto py-10'>
             <h2 className='text-5xl font-bold mb-4 text-center'>Meet our Founders</h2>
             <p className='text-xl text-center mb-6'>Few words from founders desk</p>
 
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-8'>
+            <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="600" className='grid grid-cols-1 lg:grid-cols-3 gap-8'>
                 <div>
                     <Image className='w-72' src={founder1} alt='Manish'></Image>
                     <div  className='flex items-center justify-between'>
@@ -41,6 +51,7 @@ const Founders = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 };

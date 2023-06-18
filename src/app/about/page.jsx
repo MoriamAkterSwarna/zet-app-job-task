@@ -4,6 +4,7 @@ import Featured from "./featured";
 import Founders from "./founder";
 import InvestorCompanies from "./investorCompanies";
 import Investors from "./investors";
+import Others from "./others";
 
 export const metadata = {
     title: "ZET - About Us",
@@ -18,6 +19,7 @@ const aboutPage = () => {
             <InvestorCompanies></InvestorCompanies>
             <Investors></Investors> 
             <Founders></Founders>
+            <Others></Others>
         </div>
     );
 };
