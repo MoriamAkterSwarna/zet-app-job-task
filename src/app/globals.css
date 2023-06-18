@@ -9,8 +9,14 @@
     background-image: url('../../public/decImg2.svg');
     background-repeat: no-repeat;
 }
+.aboutBanner{
+    background-image: url('../../public/aboutPage/OurMission.webp');
+    object-fit: cover;
+    height: 90vh;
+    background-size: cover;
+}
 .footer{
     background-image: url('../../public/AboutUs.webp');
     background-repeat: no-repeat;
-    object-fit: cover;
+    object-fit:cover ;
 }

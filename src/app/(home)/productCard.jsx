@@ -13,7 +13,7 @@ const ProductCards = () => {
         AOS.refresh();
       }, []);
     return (
-        <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="600" className='sm:w-[90%] lg:w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6'>
+        <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="600" className='sm:w-[90%] lg:w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 lg:gap-6 '>
             <div  className='flex items-center justify-around bg-emerald-100/50 rounded-lg p-6 hover:bg-white'>
              <Image className='w-1/4' src={product1} alt='Credit Cards'></Image>
              <div >
@@ -44,6 +44,9 @@ const ProductCards = () => {
             </div>
             
         </div>
+      
+        
+      
     );
 };
 

@@ -3,7 +3,7 @@ import people from '../../../public/peeps1.webp'
 const ZETEffect = () => {
     return (
         
-            <div className=' bg-blue-500 rectangle my-10'>
+            <div className=' bg-blue-500 rectangle mt-96 lg:my-10 '>
 
                 <div className='bg-blue-400 w-[70%] py-36 px-48 mx-auto'>
                 <div className=''>

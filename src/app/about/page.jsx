@@ -1,3 +1,5 @@
+import AboutBanner from "./aboutBanner";
+
 export const metadata = {
     title: "ZET - About Us",
   };
@@ -5,7 +7,7 @@ export const metadata = {
 const aboutPage = () => {
     return (
         <div>
-            about
+            <AboutBanner></AboutBanner>
         </div>
     );
 };

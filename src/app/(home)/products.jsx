@@ -6,7 +6,7 @@ import ProductCards from './productCard';
 
 const Products = () => {
     return (
-        <div className="bg-blue-50 mt-4 h-[100%] lg:h-[90vh]">
+        <div className="bg-blue-50 mt-4 sm:h-full lg:h-[90vh]">
             <div className='relative'>
             <Image  src={productBg1} alt='product background'></Image>
             <div className='text-center mt-4 absolute top-10 ml-[40%] mb-8'>
