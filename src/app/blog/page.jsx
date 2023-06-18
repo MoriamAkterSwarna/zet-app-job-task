@@ -1,3 +1,5 @@
+import BlogsPage from "./blogs";
+
 export const metadata = {
     title: "ZET - Blog",
   };
@@ -5,8 +7,8 @@ export const metadata = {
 
 const page = () => {
     return (
-        <div>
-            <h2>Blog</h2>
+        <div className="w-[90%] mx-auto">
+            <BlogsPage></BlogsPage>
         </div>
     );
 };

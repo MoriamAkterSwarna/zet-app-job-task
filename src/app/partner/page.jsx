@@ -1,3 +1,4 @@
+import DetailsForm from "./details";
 import PartnerHome from "./partnerHome";
 
 export const metadata = {
@@ -8,6 +9,7 @@ const PartnerPage = () => {
     return (
         <div className=" w-[90%] lg:w-[80%] mx-auto">
             <PartnerHome></PartnerHome>
+            <DetailsForm></DetailsForm>
         </div>
     );
 };
