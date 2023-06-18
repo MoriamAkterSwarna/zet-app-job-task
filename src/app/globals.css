@@ -9,6 +9,7 @@
     background-image: url('../../public/decImg2.svg');
     background-repeat: no-repeat;
 }
+
 .aboutBanner{
     background-image: url('../../public/aboutPage/OurMission.webp');
     object-fit: cover;
