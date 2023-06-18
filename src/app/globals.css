@@ -5,7 +5,10 @@
 .rectangle{
     clip-path: polygon(0% 25%, 100% 0%, 100% 75%, 0% 100%);
 }
-
+.choose{
+    background-image: url('../../public/decImg2.svg');
+    background-repeat: no-repeat;
+}
 .footer{
     background-image: url('../../public/AboutUs.webp');
     background-repeat: no-repeat;
