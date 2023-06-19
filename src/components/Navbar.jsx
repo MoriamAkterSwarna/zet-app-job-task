@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return (        
 
-<><nav className="navbar sticky top-0 z-10  lg:px-24">
+<><nav className="navbar bg-white top-0 z-10  lg:px-24">
       <div className="flex-1">
           <Image src={zetLogo} className="w-24" alt="ZET Logo"></Image>
         
