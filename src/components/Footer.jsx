@@ -7,7 +7,7 @@ const Footer = () => {
     
     return (
         
-    <div className="footer xs:h-screen md:pt-32 lg:pt-4 sm:mb-0 lg:h-[80vh] lg:mb-0">
+    <div className="footer xs:h-screen md:pt-32 lg:pt-4 sm:mb-0 lg:h-[80vh] w-[100%] lg:mb-0">
       <div className='sm:w-90vw lg:w-80vw mx-auto py-10'>
         <div className='border-b-2 border-white w-full pb-4'>
           <Image className='w-20' src={zetLogo} alt='logo' />
